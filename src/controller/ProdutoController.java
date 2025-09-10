@@ -39,24 +39,6 @@ public class ProdutoController {
 		
 	}
 	
-
-	
-	
-	
-	//Buscar um produto por ID
-	public Produto buscarPorId(int id) {
-		
-		Produto produto = produtoDAO.buscarPorId(id);
-		
-		if(produto == null) {
-			
-			System.out.println("Produto não encontrado.");
-			
-		}
-		
-		return produto;
-		
-	}
 	
 	//Atualiza o produto
 	public boolean atualizarProduto(Produto produto) {

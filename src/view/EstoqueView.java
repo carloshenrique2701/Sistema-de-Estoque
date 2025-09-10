@@ -13,11 +13,6 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-
-//Imports para captura de eventos
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 public class EstoqueView extends JFrame{
 	
 	private ProdutoController controller;
